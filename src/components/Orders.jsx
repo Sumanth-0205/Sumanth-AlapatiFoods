@@ -11,7 +11,7 @@ import QuantityButton from './QuantityButton';
             id: 1,
             
             name: "Orange juice",
-            price: 10000,
+            price: 100.00,
             
             imgsrc: "https://images.pexels.com/photos/1337824/pexels-photo-1337824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         },
@@ -20,7 +20,7 @@ import QuantityButton from './QuantityButton';
             id: 2,
            
             name: "water-melon juice",
-            price: 5000,
+            price: 50.00,
            
             imgsrc: "https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         },
@@ -29,7 +29,7 @@ import QuantityButton from './QuantityButton';
             id: 3,
            
             name: "Choclate ice-cream",
-            price: 25000,
+            price: 250.00,
             
             imgsrc: "https://images.pexels.com/photos/28309088/pexels-photo-28309088/free-photo-of-ice-cream-cones-with-nuts-and-chocolate-on-a-wooden-table.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         },
@@ -38,7 +38,7 @@ import QuantityButton from './QuantityButton';
             id: 4,
             
             name: "Strawberry milkshake",
-            price: 35000,
+            price: 350.00,
            
             imgsrc: "https://images.pexels.com/photos/2424832/pexels-photo-2424832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         },
@@ -47,7 +47,7 @@ import QuantityButton from './QuantityButton';
             id: 5,
            
             name: "Fruit-bowl",
-            price: 20000,
+            price: 200.00,
             
             
             imgsrc: "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -57,7 +57,7 @@ import QuantityButton from './QuantityButton';
             id: 6,
            
             name: "Lassi",
-            price: 3000,
+            price: 30.00,
             
             imgsrc: "https://images.pexels.com/photos/18142603/pexels-photo-18142603/free-photo-of-cold-drink-in-a-glass.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         },
@@ -66,7 +66,7 @@ import QuantityButton from './QuantityButton';
             id: 7,
             
             name: "cake",
-            price: 15000,
+            price: 150.00,
            
             imgsrc: "https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         },
@@ -75,7 +75,7 @@ import QuantityButton from './QuantityButton';
             id: 8,
            
             name: "cup cake",
-            price: 29000,
+            price: 290.00,
             
             
             imgsrc: "https://images.pexels.com/photos/1055271/pexels-photo-1055271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -102,7 +102,7 @@ import QuantityButton from './QuantityButton';
                     
 
                         <div className="flex space-x-25 ">
-                            <h2 className="m-0 mt-2 p-2 ml-15">{order.name}- {order.price/100}</h2> 
+                            <h2 className="m-0 mt-2 p-2 ml-15">{order.name}- {order.price}</h2> 
                         
 
                         <QuantityButton product={order} onUpdate={handleUpdateCart}/>
