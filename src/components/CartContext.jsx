@@ -18,7 +18,7 @@ export function CartProvider({ children }) {
         newCart[product.id] = { 
            ...(newCart[product.id] || {}),
           name: product.name, 
-          price: product.price/100, 
+          price: product.price, 
           quantity: product.quantity 
         };
       } else {
